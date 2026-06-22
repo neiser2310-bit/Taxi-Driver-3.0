@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Taxi Driver 3.0</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+header{
+background:#FFD700;
+color:black;
+padding:20px;
+text-align:center;
+}
+
+.hero{
+height:80vh;
+
+display:flex;
+flex-direction:column;
+
+justify-content:center;
+align-items:center;
+
+gap:20px;
+
+background:
+linear-gradient(
+rgba(0,0,0,.5),
+rgba(0,0,0,.5)
+),
+url("https://images.unsplash.com/photo-1519003722824-194d4455a60c");
+
+background-size:cover;
+}
+
+h1{
+font-size:50px;
+}
+
+button{
+
+padding:15px 30px;
+
+border:none;
+
+background:#FFD700;
+
+font-size:18px;
+
+cursor:pointer;
+
+border-radius:10px;
+
+}
+
+button:hover{
+
+background:#ffbf00;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>🚕 Taxi Driver 3.0</h2>
+
+</header>
+
+<section class="hero">
+
+<h1>Solicita tu Taxi</h1>
+
+<p>Rápido • Seguro • Disponible</p>
+
+<button onclick="pedirTaxi()">
+
+Pedir Taxi
+
+</button>
+
+</section>
+
+<script>
+
+function pedirTaxi(){
+
+alert(
+"Solicitud enviada correctamente"
+);
+
+}
+
+</script>
+
+</body>
+
+</html>
